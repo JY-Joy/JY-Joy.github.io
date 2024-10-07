@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Flexible Techniques for Differentiable Rendering with 3D Gaussians"
-date:   2023-08-28 22:21:59 +00:00
-image: /images/3dgaussian.jpg
+title:  "InstantIR: Blind Image Restoration with Instant Generative Reference"
+date:   2023-10-02 19:53:59 +08:00
+image: /images/instantir.png
 categories: research
-author: "Leo Keselman"
-authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
-venue: "arXiv"
-arxiv: https://arxiv.org/abs/2308.14737
-code: https://github.com/leonidk/fmb-plus
-website: https://leonidk.github.io/fmb-plus
+author: "Jen-Yuan Huang"
+authors: "<strong>Jen-Yuan Huang</strong>, Haofan Wang, Qixun Wang, Xu Bai, Hao Ai, Peng Xing, Tong Lin"
+venue: "ICLR 2025"
+# arxiv: https://arxiv.org/abs/2308.14737
+# code: https://github.com/leonidk/fmb-plus
+# website: https://leonidk.github.io/fmb-plus
 ---
-We show how shape reconstruction with 3D Gaussians can be expanded to include differentiable optical flow, colored mesh exports and more. 
+InstantIR is a novel blind image restoration model based on Stable Diffusion. At each denoising step, we generate a restoration reference from current diffusion latent, which is used to align the low-quality image encoding and condition the generation process.
