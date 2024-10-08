@@ -64,6 +64,47 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr onmouseout="instantir_stop()" onmouseover="instantir_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='instantir_image'>
+                  <img src='tn/images/CSGO.png' width="160"></div>
+                <img src='tn/images/instantstyle_plus.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function instantir_start() {
+                  document.getElementById('instantir_image').style.opacity = "1";
+                }
+
+                function instantir_stop() {
+                  document.getElementById('instantir_image').style.opacity = "0";
+                }
+                instantir_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://yifanjiang.net/MalleConv.html">
+                <span class="papertitle">Fast and High-Quality Image Denoising via Malleable Convolutions</span>
+              </a>
+              <br>
+              <a href="https://yifanjiang.net/">Yifan Jiang</a>,
+              <a href="https://bartwronski.com/">Bartlomiej Wronski</a>, 
+              <a href="https://bmild.github.io/">Ben Mildenhall</a>, <br>
+              <strong>Jonathan T. Barron</strong>,
+              <a href="https://spark.adobe.com/page/CAdrFMJ9QeI2y/">Zhangyang Wang</a>,
+              <a href="https://tianfan.info/">Tianfan Xue</a>
+              <br>
+              <em>ECCV</em>, 2022
+              <br>
+              <a href="https://yifanjiang.net/MalleConv.html">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2201.00392">arXiv</a>
+              <p></p>
+              <p>
+              We denoise images efficiently by predicting spatially-varying kernels at low resolution and using a fast fused op to jointly upsample and apply these kernels at full resolution.
+              </p>
+            </td>
+          </tr>
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
