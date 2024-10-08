@@ -21,7 +21,7 @@ footer-links:
   email: jenyuan@stu.pku.edu.cn
   facebook:
   flickr:
-  github: DannHuang
+  github: JY-Joy
   instagram:
   linkedin:
   pinterest:
@@ -42,7 +42,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: "https://joyhuang.com" # the base hostname & protocol for your site
+url: "https://jy-joy.github.io" # the base hostname & protocol for your site
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

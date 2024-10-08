@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "InstantIR: Blind Image Restoration with Instant Generative Reference"
-date:   2023-10-02 19:53:59 +08:00
+date:   2024-10-02 19:53:59 +08:00
 image: /images/instantir.png
 categories: research
 author: "Jen-Yuan Huang"
 authors: "<strong>Jen-Yuan Huang</strong>, Haofan Wang, Qixun Wang, Xu Bai, Hao Ai, Peng Xing, Tong Lin"
-venue: "ICLR 2025"
+venue: "submit to ICLR"
 # arxiv: https://arxiv.org/abs/2308.14737
 # code: https://github.com/leonidk/fmb-plus
 # website: https://leonidk.github.io/fmb-plus

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "InstantStyle-Plus: Style Transfer with Content-Preserving in Text-to-Image Generation"
-date:   2023-07-02 19:53:59 +08:00
+date:   2024-07-02 19:53:59 +08:00
 image: /images/instantstyle_plus.png
 categories: research
 author: "Peng Xing"
