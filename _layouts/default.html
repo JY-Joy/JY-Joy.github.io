@@ -19,10 +19,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="stylesheet" href="../_css/_index.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <script src="https://kit.fontawesome.com/97d7515187.js" crossorigin="anonymous"></script>
+
+  <style>
+
+    .clustrmaps-container {
+      width: 200px;
+      height: 200px;
+      position: relative;
+    }
+
+    .clustrmaps-container iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    .footer .icon-link {
+        font-size: 25px;
+        color: #000;
+    }
+
+    /* html {
+        scroll-behavior: smooth;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        padding: 10px 0;
+        margin: 0;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .navbar li {
+        margin-right: 90px;
+    }
+
+    .navbar li:last-child {
+        margin-right: 0;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        padding: 10px 15px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .navbar a:hover {
+        background-color: #6891D5;
+        color: white;
+    }
+
+    .active {
+        background-color: #6891D5;
+        color: white;
+    } */
+  </style>
 
 </head>
 
@@ -44,12 +105,9 @@
               </p>
               <p style="text-align:center">
                 <!-- <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp; -->
-                <a class="icon-link" href="https://github.com/JY-Joy" class="external-link" disabled>
-                  <i class="fa-brands fa-github"></i>
-                </a> &nbsp;/&nbsp;
-                <a class="icon-link" href="https://scholar.google.com/citations?user=ZwlvNyQAAAAJ" class="external-link" disabled>
-                  <i class="fa-brands fa-google-scholar"></i>
-                </a> &nbsp;/&nbsp;
+                <a href="https://github.com/JY-Joy">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=ZwlvNyQAAAAJ">Google Scholar</a>
+                <!-- <a href="https://x.com/Jenyuan_JOY"> X </a> -->
               </p>
               <p style="text-align:center">
                 <a href="https://twitter.com/Jenyuan_JOY?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Jenyuan_JOY</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -95,9 +153,9 @@
               <br><strong>Jen-Yuan Huang</strong>, Haofan Wang, Qixun Wang, Xu Bai, Hao Ai, Peng Xing, Jen-Tse Huang<br>
               <em>arXiv</em>, 2024
               <br>
-              <a href="https://arxiv.org/abs/2410.06551">arXiv</a> /
-              <a href="https://jy-joy.github.io/InstantIR/">website</a> /
-              <a href="https://github.com/JY-Joy/InstantIR">code</a>
+              <a href="https://arxiv.org/abs/2410.06551">arXiv</a>
+              /
+              <a href="https://jy-joy.github.io/InstantIR/">website</a>
               <p></p>
               <p>
               InstantIR is a novel blind image restoration model based on Stable Diffusion. At each denoising step, we generate a restoration reference from current diffusion latent, which is used to align the low-quality image encoding and condition the generation process.
@@ -174,7 +232,6 @@
             </tr>
           </tbody>
         </table>
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=eaEgBvAQMrAf--FynlVi-x2LDBNR0FXhbMdzN0xClT8"></script>
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
