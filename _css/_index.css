@@ -1,0 +1,58 @@
+.clustrmaps-container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+
+.clustrmaps-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+  /* html {
+      scroll-behavior: smooth;
+  }
+
+  .navbar {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 10px 0;
+      margin: 0;
+      background-color: white;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+  }
+
+  .navbar li {
+      margin-right: 90px;
+  }
+
+  .navbar li:last-child {
+      margin-right: 0;
+  }
+
+  .navbar a {
+      text-decoration: none;
+      padding: 10px 15px;
+      color: black;
+      font-weight: bold;
+  }
+
+  .navbar a:hover {
+      background-color: #6891D5;
+      color: white;
+  }
+
+  .active {
+      background-color: #6891D5;
+      color: white;
+  } */

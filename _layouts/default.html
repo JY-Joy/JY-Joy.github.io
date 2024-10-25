@@ -19,65 +19,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="stylesheet" href="../_css/_index.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <style>
-
-    .clustrmaps-container {
-      width: 200px;
-      height: 200px;
-      position: relative;
-    }
-
-    .clustrmaps-container iframe {
-      width: 100%;
-      height: 100%;
-    }
-
-    /* html {
-        scroll-behavior: smooth;
-    }
-
-    .navbar {
-        display: flex;
-        justify-content: center;
-        list-style-type: none;
-        padding: 10px 0;
-        margin: 0;
-        background-color: white;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
-    }
-
-    .navbar li {
-        margin-right: 90px;
-    }
-
-    .navbar li:last-child {
-        margin-right: 0;
-    }
-
-    .navbar a {
-        text-decoration: none;
-        padding: 10px 15px;
-        color: black;
-        font-weight: bold;
-    }
-
-    .navbar a:hover {
-        background-color: #6891D5;
-        color: white;
-    }
-
-    .active {
-        background-color: #6891D5;
-        color: white;
-    } */
-  </style>
+  <script src="https://kit.fontawesome.com/97d7515187.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -144,12 +89,12 @@
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>InstantIR: Blind Image Restoration with Instant Generative Reference</h3>
-              <br><strong>Jen-Yuan Huang</strong>, Haofan Wang, Qixun Wang, Xu Bai, Hao Ai, Peng Xing, Tong Lin<br>
+              <br><strong>Jen-Yuan Huang</strong>, Haofan Wang, Qixun Wang, Xu Bai, Hao Ai, Peng Xing, Jen-Tse Huang<br>
               <em>arXiv</em>, 2024
               <br>
-              <a href="https://arxiv.org/abs/2410.06551">arXiv</a>
-              /
-              <!-- <a href="https://arxiv.org/abs/2201.00392">website</a> -->
+              <a href="https://arxiv.org/abs/2410.06551">arXiv</a> /
+              <a href="https://jy-joy.github.io/InstantIR/">website</a> /
+              <a href="https://github.com/JY-Joy/InstantIR">code</a>
               <p></p>
               <p>
               InstantIR is a novel blind image restoration model based on Stable Diffusion. At each denoising step, we generate a restoration reference from current diffusion latent, which is used to align the low-quality image encoding and condition the generation process.
