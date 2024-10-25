@@ -21,7 +21,6 @@
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <script defer src="../_js/fontawesome.all.min.js"></script>
   <script src="https://kit.fontawesome.com/97d7515187.js" crossorigin="anonymous"></script>
 
   <style>
@@ -37,9 +36,17 @@
       height: 100%;
     }
 
-    .footer .icon-link {
-        font-size: 25px;
-        color: #000;
+    .icon-link {
+      font-size: 25px;
+      color: #000;
+    }
+
+    .icon-link a {
+      color: inherit; /* Inherit the color from .icon-link */
+      text-decoration: none; /* Remove the underline */
+    }
+    .icon-link:hover {
+      color: #000; /* Ensure the hover state is black */
     }
 
     /* html {
@@ -107,9 +114,8 @@
               <p style="text-align:center">
                 <!-- <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp; -->
                 <a class="icon-link" href="https://github.com/JY-Joy" class="external-link" disabled>
-                  <i class="fab fa-github" style="margin-left: 8px;"></i>
+                  <i class="fa-brands fa-github" style="margin-left: 8px;"></i>
                 </a> &nbsp;/&nbsp;
-                <a href="https://github.com/JY-Joy">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=ZwlvNyQAAAAJ">Google Scholar</a>
                 <!-- <a href="https://x.com/Jenyuan_JOY"> X </a> -->
               </p>
@@ -185,23 +191,20 @@
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /
               {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
               {% if post.website %}
-              <a href="{{post.website}}">website</a>
+              <a href="{{post.website}}">website</a> /
               {% endif %}
               {% if post.youtube %}
               <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}
