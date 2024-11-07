@@ -10,5 +10,6 @@ venue: "arXiv"
 arxiv: https://arxiv.org/abs/2407.00788
 code: https://github.com/instantX-research/InstantStyle-Plus
 website: https://instantstyle-plus.github.io
+demo: https://huggingface.co/spaces/InstantX/InstantStyle
 ---
 In this paper, we explore natural style transfer while maintaining content integrity. Through analyzing different components of the Stable Diffusion UNet, we identify layers that specialize in processing style and content. Furthermore, we introduce a style discriminator to enhance the stylization of the output.

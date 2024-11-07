@@ -106,10 +106,11 @@
                 Jen-Yuan (Joy) Huang
               </h1>
               <p>Hello! I am a graduate student at the <a href="https://sai.pku.edu.cn/znxyenglish/">School of Intelligence Science and Technology</a> at <a href="https://english.pku.edu.cn">Peking University</a>, advised by <a href="https://www.cis.pku.edu.cn/szdw/zzjs/lt.htm">Professor Tong Lin</a>. 
-                  My research interest lies in computer vision and generative models. I enjoy developing fancy AI-generated content (AIGC) models, and I am currently a member of <a href="https://x.com/instantx_ai">InstantX Team</a>.
+                  My research interest lies in <ins>computer vision</ins> and <ins>generative models</ins>. I enjoy developing fancy AI-generated content (AIGC) models, and I am currently a member of <a href="https://x.com/instantx_ai">InstantX Team</a>.
               </p>
               <p>
-                  I received my Bachelor's degree in Industrial Engineering from <a href="https://www.nju.edu.cn/en/">Nanjing University</a>, with a specialization in optimization and operation research. During my undergraduate studies, I had the opportunity to work closely with <a href="https://www.researchgate.net/profile/Xiaopeng-Luo">Professor Xiaopeng Luo</a>.
+                  I received my Bachelor's degree in Industrial Engineering from <a href="https://www.nju.edu.cn/en/">Nanjing University</a>, with a specialization in <ins>optimization</ins> and <ins>operation research</ins>. 
+                  During my undergraduate studies, I had the opportunity to work closely with <a href="https://www.researchgate.net/profile/Xiaopeng-Luo">Professor Xiaopeng Luo</a>.
               </p>
               <div style="display: flex; justify-content: center; align-items: center">
                 <p style="display: inline-flex; justify-content: center; align-items: center; gap: 10px;">
@@ -176,6 +177,7 @@
               <a href="https://arxiv.org/abs/2410.06551">arXiv</a> /
               <a href="https://github.com/instantX-research/InstantIR">website</a> /
               <a href="https://github.com/JY-Joy/InstantIR">code</a>
+              <a href="https://huggingface.co/spaces/JOY-Huang/InstantIR">demo</a>
               <p></p>
               <p>
               InstantIR is a novel blind image restoration model based on Stable Diffusion. At each denoising step, we generate a restoration reference from current diffusion latent, which is used to align the low-quality image encoding and condition the generation process.
@@ -206,6 +208,9 @@
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.demo %}
+              <a href="{{post.demo}}">demo</a> /
               {% endif %}
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
